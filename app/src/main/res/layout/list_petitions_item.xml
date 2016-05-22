@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/card_background_selector"
+    android:orientation="horizontal" >
+
+    <TextView
+        android:id="@+id/textview_petition_to"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Petiton To" />
+
+    <TextView
+        android:id="@+id/textview_petition_title"
+        android:layout_below="@+id/textview_petition_to"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorPrimary"
+        android:text="Petiton Title" />
+
+    <TextView
+        android:id="@+id/textview_petition_desc"
+        android:layout_below="@+id/textview_petition_title"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:text="Petiton Content" />
+
+    <TextView
+        android:id="@+id/textview_petition_started_by"
+        android:layout_below="@+id/textview_petition_desc"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="Started by" />
+
+
+
+
+</RelativeLayout>

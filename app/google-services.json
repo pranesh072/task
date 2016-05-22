@@ -1,0 +1,35 @@
+{
+  "project_info": {
+    "project_number": "696651043",
+    "project_id": "realtytask-a905d"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:696651043:android:761277dd4d9e0c75",
+        "android_client_info": {
+          "package_name": "pranesh.realtytask"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAvW4W3MEwD-uE2eS8VCiQujLjyxNKrx8k"// ye android wali ayi h isme
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
